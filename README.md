@@ -1,5 +1,7 @@
 # Fraud Detection Model Development
 
+**Author**: [Emmanuel Olafisoye](https://www.linkedin.com/in/emmanuel-olafisoye-5358b323a/)
+
 ## Project Overview
 This project focuses on building a comprehensive fraud detection system using machine learning and deep learning techniques. The goal is to distinguish legitimate transactions from fraudulent ones while minimizing disruption to genuine users, balancing high recall (catching fraud) with high precision (minimizing false alarms).
 
@@ -154,7 +156,7 @@ To run this fraud detection system:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/korie-cyber/Fraud-Detection-Model
+   git clone <your-repo-link>
    cd fraud-detection
    ```
 
