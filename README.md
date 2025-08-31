@@ -1,7 +1,5 @@
 # Fraud Detection Model Development
 
-# Fraud Detection Model Development
-
 ## Project Overview
 This project focuses on building a comprehensive fraud detection system using machine learning and deep learning techniques. The goal is to distinguish legitimate transactions from fraudulent ones while minimizing disruption to genuine users, balancing high recall (catching fraud) with high precision (minimizing false alarms).
 
