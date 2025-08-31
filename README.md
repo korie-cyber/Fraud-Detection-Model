@@ -7,7 +7,7 @@ This project focuses on building a comprehensive fraud detection system using ma
 
 Since fraud datasets are often limited, I generated a synthetic dataset of 100,000 transactions with approximately 2% fraud rate, incorporating realistic fraud patterns.
 
-## Executive Summary
+## Summary
 This project demonstrates the development of a complete machine learning fraud detection solution, covering the entire pipeline from synthetic data generation through model deployment considerations. The approach balances technical performance with business requirements, demonstrating how effective fraud detection systems can be built for financial technology applications. Multiple models were evaluated, with tree-based approaches showing superior performance on imbalanced data.
 
 ## Technical Implementation
