@@ -152,26 +152,43 @@ The implementation plan follows a conservative rollout strategy:
 ## Technical Implementation
 
 ### Getting Started
-To run this fraud detection system:
+To run this fraud detection system in a few different ways, depending on your setup:
 
-1. **Clone the Repository**
+### 1. To Run Locally with Jupyter Notebook
+
+- **Clone the Repository:**
    ```bash
-   git clone https://github.com/korie-cyber/Fraud-Detection-Model
-   cd fraud-detection
-   ```
+   git clone https://github.com/<your-username>/Fraud-Detection-Model.git
+   cd Fraud-Detection-Model
 
-2. **Install Dependencies**
-   ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn xgboost tensorflow
-   ```
+- **Install Dependencies:**
+   pip install -r requirements.txt
 
-3. **Run the Complete Pipeline**
+- **Start Jupyter Notebook:**
+   jupyter notebook Olafisoye_Emmanuel_Task1_Model.ipynb
+
+- **Run the cells step by step to:**
    - Execute the synthetic data generation
    - Perform exploratory data analysis
    - Run feature engineering scripts
    - Train all models sequentially
    - Evaluate model performance
    - Analyze data drift patterns
+
+### 2. **Run as a Python Script**  
+   jupyter nbconvert --to script Olafisoye_Emmanuel_Task1_Model.ipynb
+   python Olafisoye_Emmanuel_Task1_Model.py
+
+### 3. **Run in Google Colab**
+
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
+
+- Upload the notebook Olafisoye_Emmanuel_Task1_Model.ipynb.
+
+- Install dependencies inside Colab:
+   !pip install pandas numpy matplotlib seaborn scikit-learn xgboost tensorflow
+
+- Run all cells (Runtime → Run all).   
 
 ### Project Structure
 The implementation follows a logical progression through the fraud detection pipeline:
