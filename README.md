@@ -152,7 +152,7 @@ The implementation plan follows a conservative rollout strategy:
 ### Getting Started
 To run this fraud detection system in a few different ways, depending on your setup:
 
-### 1. To Run Locally with Jupyter Notebook
+### 1. Running Locally with Jupyter Notebook
 
 - **Clone the Repository:**
    ```bash
@@ -160,10 +160,10 @@ To run this fraud detection system in a few different ways, depending on your se
    cd Fraud-Detection-Model
 
 - **Install Dependencies:**
-   pip install -r requirements.txt
+   - pip install -r requirements.txt
 
 - **Start Jupyter Notebook:**
-   jupyter notebook Olafisoye_Emmanuel_Task1_Model.ipynb
+   - jupyter notebook Olafisoye_Emmanuel_Task1_Model.ipynb
 
 - **Run the cells step by step to:**
    - Execute the synthetic data generation
@@ -174,8 +174,8 @@ To run this fraud detection system in a few different ways, depending on your se
    - Analyze data drift patterns
 
 ### 2. **Run as a Python Script**  
-   jupyter nbconvert --to script Olafisoye_Emmanuel_Task1_Model.ipynb
-   python Olafisoye_Emmanuel_Task1_Model.py
+   - jupyter nbconvert --to script Olafisoye_Emmanuel_Task1_Model.ipynb
+   - python Olafisoye_Emmanuel_Task1_Model.py
 
 ### 3. **Run in Google Colab**
 
