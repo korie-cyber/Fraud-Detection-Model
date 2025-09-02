@@ -181,7 +181,7 @@ To run this fraud detection system in a few different ways, depending on your se
 
 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
 
-- Upload the notebook Olafisoye_Emmanuel_Task1_Model.ipynb.
+- Upload this notebook: Olafisoye_Emmanuel_Task1_Model.ipynb. 
 
 - Install dependencies inside Colab:
    !pip install pandas numpy matplotlib seaborn scikit-learn xgboost tensorflow
