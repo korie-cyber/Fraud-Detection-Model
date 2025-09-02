@@ -158,7 +158,7 @@ To run this fraud detection system in a few different ways, depending on your se
 
 - **Clone the Repository:**
    ```bash
-   git clone https://github.com/<your-username>/Fraud-Detection-Model.git
+   git clone https://github.com/korie-cyber/Fraud-Detection-Model.git
    cd Fraud-Detection-Model
 
 - **Install Dependencies:**
