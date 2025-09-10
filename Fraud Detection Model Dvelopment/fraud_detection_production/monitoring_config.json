@@ -1,0 +1,34 @@
+{
+  "performance_thresholds": {
+    "min_auc_roc": 0.9,
+    "min_precision": 0.75,
+    "min_recall": 0.7,
+    "max_false_positive_rate": 0.05
+  },
+  "drift_detection": {
+    "check_frequency_days": 7,
+    "drift_threshold": 0.1,
+    "features_to_monitor": [
+      "amount",
+      "merchant_category",
+      "payment_method",
+      "latitude",
+      "longitude",
+      "hour",
+      "day_of_week",
+      "user_amount_mean",
+      "user_amount_std",
+      "user_amount_min"
+    ]
+  },
+  "business_alerts": {
+    "max_daily_flags": 1,
+    "min_fraud_recovery_rate": 0.7,
+    "min_daily_benefit": 23.86171765461156
+  },
+  "retraining_triggers": {
+    "performance_degradation_threshold": 0.05,
+    "drift_score_threshold": 0.15,
+    "days_since_last_training": 30
+  }
+}
